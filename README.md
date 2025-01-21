@@ -95,6 +95,13 @@
 ![image](https://github.com/user-attachments/assets/a0a21177-518e-4ec2-98b6-19145d58afd1)
 
 
+
+- Verify that the Domain Client VM's DNS server is set to the IP address of the Domain Controller VM.
+  - Run the "ipconfig /all" command  
+
+![image](https://github.com/user-attachments/assets/9161e829-5c64-4af0-aa6e-cc71ab17773d) ![image](https://github.com/user-attachments/assets/e397b05a-9083-4fac-8df0-ddcbd40b7d47)
+
+
 </p>
 
 
