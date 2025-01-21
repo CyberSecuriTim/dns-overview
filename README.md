@@ -283,7 +283,17 @@
   - This proves that the DNS host file takes precedence over both the DNS server's A record and the local DNS cache when resolving domain name to IP address lookups.
        - It is a useful tool for system/network administrators to statically redirect traffic in their networks as needed by using DNS's hierarchical nature.  
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<h2> STEP 4.0: Create a CNAME (Canonical Name) DNS Record in the DNS Manager on the Domain Controller VM. </h2>
 
+- Within DNS Manager:
+  - Navigate to (name of Domain Controller VM) > Forward Lookup Zone > (name of the created domain)
+  - Right click the name of the domain and select "New Alias (CNAME)..."
+    - That is essentially what a CNAME record is (an alias for an already created A record)
+      - For the CNAME record to work, the A record must be created (domain name mapped to an IPv4 address)
 
+![image](https://github.com/user-attachments/assets/c691cef0-5796-4093-a9c3-574f54a5196d)
+
+  - 
 
