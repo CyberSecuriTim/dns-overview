@@ -256,7 +256,7 @@
 
   - Select "File" then select "Open"
   - Navigate to the "C:\\Windows\System32\drivers\etc\hosts" file
-    - Select "All Files" from the dropdown menu in the bottmom right corner of the window.
+    - Select "All Files" from the dropdown menu in the bottom right corner of the window.
    
 ![image](https://github.com/user-attachments/assets/1f15b60d-5c2d-4ef5-8367-b86bd7e70c8f)
 
