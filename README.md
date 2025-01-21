@@ -320,7 +320,7 @@
 - FYI. This message occurs because although the domain name system redirects our search to google's web server, it does not possess the digital certificate associated with that 
   google web server, therfore the web browser has built in security functionality to alert the user that the web server they are trying to access may not truly be the authentic 
   server and this victim may be the victim of an interception/on-path attack if they proceed.
-    - This is beyond the scope of the DNS lab, I just wanted to include it that tidbit of information for funsies...I did say I was an IT nerd after all 😜
+    - This is beyond the scope of the DNS lab, I just wanted to include that tidbit of information for funsies...I did say I was an IT nerd after all 😜
 
 
 <p> 
