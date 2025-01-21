@@ -295,5 +295,14 @@
 
 ![image](https://github.com/user-attachments/assets/c691cef0-5796-4093-a9c3-574f54a5196d)
 
-  - 
+  - Name the alias "search"
+    - Notice the FQDN (fully quailified domain name) is automatically configured (similarly to when we created the "mainframe" A record)
+    - Enter the FQDN for the target host
+      - I chose "www.gooogle.com" (it can be whatever you would like it to be, just ensure the target host is accessible)
+     
+![image](https://github.com/user-attachments/assets/691532cb-9f1f-48d8-9b52-dfbd82f41a12)
+
+
+     
+    -    
 
