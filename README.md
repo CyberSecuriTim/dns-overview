@@ -99,7 +99,7 @@
 - Verify that the Domain Client VM's DNS server is set to the IP address of the Domain Controller VM.
   - Run the "ipconfig /all" command  
 
-![image](https://github.com/user-attachments/assets/9161e829-5c64-4af0-aa6e-cc71ab17773d) ![image](https://github.com/user-attachments/assets/cf002f1c-a4df-4fb6-812d-4a18e988a724)
+![image](https://github.com/user-attachments/assets/a2de0b9c-e6f1-4956-914c-52307233f1c3) ![image](https://github.com/user-attachments/assets/cf002f1c-a4df-4fb6-812d-4a18e988a724)
 
 
 </p>
