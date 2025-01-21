@@ -317,6 +317,18 @@
 
 ![image](https://github.com/user-attachments/assets/0981abec-5215-4b21-890d-7e4f181a4c6e)
 
+- FYI. This message occurs because although the domain name system redirects our search to google's web server, it does not possess the digital certificate associated with that 
+  google web server, therfore the web browser has built in security functionality to alert the user that the web server they are trying to access may not truly be the authentic 
+  server and this victim may be the victim of an interception/on-path attack if they proceed.
+    - This is beyond the scope of the DNS lab, I just wanted to include it that tidbit of information for funsies...I did say I was an IT nerd after all 😜
 
 
-<p> </p>
+<p> 
+
+- But if you wanted to a go for a ride on the wild side and neglect cybersecurity best practice and still browse to this site let us see what happens.
+
+![image](https://github.com/user-attachments/assets/1060e79a-f2ad-4c95-bbaa-dab21cc02446)
+
+- Welp! Good old HTTP error 404. 😞
+
+</p>
