@@ -332,3 +332,5 @@
 - Welp! Good old HTTP error 404. 😞
 
 </p>
+
+<h2> Congratulations! You have made it to the end of the lab. Hopefully this simple exercise has strengthened your intuition for the domain name system. It truly is a wonderful technology that makes our lives so much easier on the internet. 😁</h2>
