@@ -276,7 +276,8 @@
 - Notice that it resolves to the IP address assigned in the local DNS host file, despite the DNS server's A record having a different value (9.9.9.9)
   and despite the local DNS cache having a different initial value as well (8.8.8.8).
 
-![image](https://github.com/user-attachments/assets/342619d7-af52-4b11-923c-a8089ae395bd)
+![image](https://github.com/user-attachments/assets/d41c76e5-c1d7-4c30-b565-98b95b50f1ff)
+
 
   - This proves that the DNS host file takes precedence over both the DNS server's A record and the local DNS cache when resolving domain name to IP address lookups.
        - It is a useful tool for system/network administrators to statically redirect traffic in their networks as needed by using DNS's hierarchical nature.  
