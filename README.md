@@ -4,8 +4,22 @@
 
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>DNS for Dumm...DNS Done Simply 😅</h1> <br />
+
+<p>
+
+  - This tutorial outlines the basic domain name to IP address resolution process which is a vital component of the Domain Name System which allows us to visit all our favourite websites 
+    and "seamlessly" (most of the time anyways) traverse the internet daily.
+
+  - Before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know how 
+     DNS works feel free to skip ahead) ☺️
+    - It is much easier for us as humans to remember domain names such as (google.com, facebook.com, youtube.com etc) than it is to memorize an arbitrary sequence of numbers that forms 
+      the IP addresses for each of those websites.
+       - Imagine having to type XXX.XXX.XXX.XXX everytime you wanted to visit your favourite website...(I shiver at the thought).
+     
+    - However, our computers and other networked/networking devices are much comfortable interacting with those arbitrary sequence of numbers known as IP addresses 
+  
+</p>
 
 
 
@@ -13,14 +27,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Windows Command-Line Tools (primarily nslookup)
+- Microsoft Active Directory Domain Services (AD DS)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2022 
 
 <h2>High-Level Steps</h2>
 
