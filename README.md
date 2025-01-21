@@ -80,7 +80,7 @@
 
 <h2>Actions and Observations</h2>
 
-<h2> STEP 0: Access the Domain Controller (with the DNS server installed and the Domain Client (with its DNS server assigned as the Domain Controller) </h2>
+<h2> STEP 0.0: Access the Domain Controller (with the DNS server installed and the Domain Client (with its DNS server assigned as the Domain Controller) </h2>
 
 
 <p> 
@@ -106,9 +106,26 @@
 
 - Run the command "ping mainframe"
   - Notice that the ping request fails (there is no DNS record for this hostname (neither locally nor externally)
+    - This hostname was entirely arbitrary by the way the hostname could have been anything even "fluffy zebras" for example
+
+![image](https://github.com/user-attachments/assets/97d3db10-1cc6-4ef2-968c-3d98b244eabe)
+
 </p>
 
+<h2> STEP 1.0: From the Domain Controller VM, Create a DNS A Record on the DNS server for the Hostname "Mainframe" </h2>
 
+<p>
+
+  - Open the "DNS Manager" app
+  - Click on the name of the Domain Controller VM running the DNS server software.
+    - Navigate to Forward Lookup Zones > (name of the previously created domain)
+    - Right Click the domain and select "New Host (A or AAAA)..."
+    - enter "mainframe" and assign this new host the IP address of the Domain Controller VM
+      - Notice the FQDN (fully qualified domain name) is automatically configured as well and appends the new hostname before the domain's name.
+     
+      ![image](https://github.com/user-attachments/assets/002256fc-4183-408f-9071-29644606c59c)
+
+</p>
 
 
 
