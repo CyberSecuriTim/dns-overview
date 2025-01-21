@@ -312,7 +312,11 @@
 
 <h2> BONUS STEP: Since the CNAME record is mapped to www.google.com let's try browsing using its Fully Qualified Domain Name. </h2>
 
-- Emter the FQDN of the CNAME record in the web browser address bar and observe what happens.
+- Enter the FQDN of the CNAME record in the web browser address bar and observe what happens.
 
 
 ![image](https://github.com/user-attachments/assets/0981abec-5215-4b21-890d-7e4f181a4c6e)
+
+
+
+<p> </p>
