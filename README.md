@@ -48,7 +48,9 @@
           - If the local DNS server has no entry for the domain name then the external resolution process begins.
          
         - At the remote/external level:
-          - The DNS server will begin  
+          - The (recursive) DNS server will begin contacting external DNS servers via the internet in a hierarchical manner:
+          - Root DNS server > Top Level Domain (TLD) DNS server > Authoritative DNS server
+          - Until a the domain name lookup process is completed and the lookup is resolved...or not👀 
 
      - Now that all the boring stuff is out of the way, let us get our hands dirty and build some intuition for DNS! 
   
