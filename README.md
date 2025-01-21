@@ -182,16 +182,22 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<h2> STEP 2.0: Time to Examine And Interact with the Domain Client's Local DNS Cache. </h2>
+<h2> STEP 2.0: From the Domain Controller, Change the Assigned IP address to the "Mainframe" A Record. </h2>
 
 - Access the Domain Controller and open the DNS server manager again.
 - Right click the "mainframe" A record that was created and select properties.
-  - Change the assigned IP address to "8.8.8.8" (this Google's public DNS server FYI)
+  - Change the assigned IP address to "8.8.8.8" (this is Google's public DNS server FYI)
   - Click Apply then OK
 
 ![image](https://github.com/user-attachments/assets/704e076a-f506-4054-a613-b82e5662c0c1)
 
- 
+
+ <h2> STEP 2.1: Attempt to Ping the "Mainframe" Host. </h2>
+
+- Run the command "ping mainframe"
+  - Notice that it still pings the previously assigned IP address.
+  
+![image](https://github.com/user-attachments/assets/f19b51e4-528f-403b-ad28-87bfb85bbc6d)
 
 
 
