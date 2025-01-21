@@ -325,7 +325,7 @@
 
 <p> 
 
-- But if you wanted to a go for a ride on the wild side and neglect cybersecurity best practice and still browse to this site let us see what happens.
+- But if you wanted to a go for a ride on the wild side, neglect cybersecurity best practice and still browse to this site let us see what happens.
 
 ![image](https://github.com/user-attachments/assets/1060e79a-f2ad-4c95-bbaa-dab21cc02446)
 
