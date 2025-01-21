@@ -24,7 +24,7 @@
 </h4>
 </b>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   - Now before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know 
     how DNS works feel free to skip ahead) ☺️
@@ -191,6 +191,7 @@
 
 ![image](https://github.com/user-attachments/assets/704e076a-f506-4054-a613-b82e5662c0c1)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  <h2> STEP 2.1: Attempt to Ping the "Mainframe" Host. </h2>
 
@@ -199,6 +200,7 @@
   
 ![image](https://github.com/user-attachments/assets/f19b51e4-528f-403b-ad28-87bfb85bbc6d)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> STEP 2.2: Examine the Local DNS Cache of the Domain Client VM. </h2>
 
@@ -207,6 +209,18 @@
 
 ![image](https://github.com/user-attachments/assets/f97e781f-aecb-4bcf-8387-e68fca5e380f)
 
+- This clearly shows the fact that the local DNS cache takes precedence over the DNS server's A record during the DNS resolution process
+  - This favours speed and efficiency of the data retrieval but sometimes at the cost of accuracy as can we here.
+   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 2.3: Clear the Local DNS cache so the DNS server's A Record can be Used </h2>
+
+- Run the command "ipconfig /flushdns"
+  - This will require opening the command prompt with admin privileges
+  - You can also run the command "ipconfig /displaydns" afterwards to verify that the DNS cache has been cleared.
+
+![image](https://github.com/user-attachments/assets/e5892b66-89ee-468e-b3de-95709ff43879)
 
 
 
