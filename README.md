@@ -200,8 +200,12 @@
 ![image](https://github.com/user-attachments/assets/f19b51e4-528f-403b-ad28-87bfb85bbc6d)
 
 
+<h2> STEP 2.2: Examine the Local DNS Cache of the Domain Client VM. </h2>
 
+- Run the command "ipconfig /displaydns"
+  - Notice that the the previosuly assigned IP address is still stored in the DNS cache
 
+![image](https://github.com/user-attachments/assets/f97e781f-aecb-4bcf-8387-e68fca5e380f)
 
 
 
