@@ -90,6 +90,11 @@
 
 ![image](https://github.com/user-attachments/assets/7f0becde-a7fa-4498-a645-69e7709fbccb)
 
+- Establish a Remote Desktop Connection to the Domain Client VM via its public IP address and login as a Domain Admin.
+
+![image](https://github.com/user-attachments/assets/a0a21177-518e-4ec2-98b6-19145d58afd1)
+
+
 </p>
 
 
