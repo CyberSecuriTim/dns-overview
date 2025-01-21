@@ -262,4 +262,8 @@
 
 
   - Add an entry to host file for mainframe
-    - Assign any accessible IP address in the entry (I chose the Domain Controller's IP address) 
+    - Assign any accessible IP address in the entry (I chose the Domain Controller's IP address)
+
+![image](https://github.com/user-attachments/assets/1df5b2c1-ae9f-475f-9a33-f7447f94837c)
+
+
