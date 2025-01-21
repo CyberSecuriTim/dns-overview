@@ -22,9 +22,11 @@
     adminstrative control over a DNS server and at least one client connected to that server. 
     
 </h4>
+</b>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  - Before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know how 
-     DNS works feel free to skip ahead) ☺️
+  - Now before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know 
+    how DNS works feel free to skip ahead) ☺️
     - It is much easier for us as humans to remember domain names such as (google.com, facebook.com, youtube.com etc) than it is to memorize an arbitrary sequence of numbers that forms 
       the IP addresses for each of those websites.
        - Imagine having to type XXX.XXX.XXX.XXX everytime you wanted to visit your favourite website...(I shiver at the thought).
