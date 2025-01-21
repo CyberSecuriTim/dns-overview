@@ -62,7 +62,7 @@
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Windows Command-Line Tools (primarily nslookup)
+- (Windows) Command-Line Tools (nslookup, ping, ipconfig)
 - Microsoft Active Directory Domain Services (AD DS)
 
 <h2>Operating Systems Used </h2>
@@ -168,10 +168,15 @@
 
 </p>
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 1.2: </h2>
 
 
+- Run the command "nslookup mainframe"
+  - The lookup is successfully resolved this time as well! 
 
-
+![image](https://github.com/user-attachments/assets/d4a9d9dc-9bb8-4b9c-8650-d987738139f0)
 
 
 
