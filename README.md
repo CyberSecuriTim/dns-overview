@@ -154,7 +154,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 1.1: Attempt to Ping the Host "mainframe" Again from the Domain Client VM </h2>
+<h2> STEP 1.5: Attempt to Ping the Host "mainframe" Again from the Domain Client VM </h2>
 
 <p> 
 
@@ -170,7 +170,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 1.2: Run the Nslookup Command against the Mainframe Hostname Again. </h2>
+<h2> STEP 1.75: Run the Nslookup Command against the Mainframe Hostname Again. </h2>
 
 
 - Run the command "nslookup mainframe"
@@ -179,10 +179,19 @@
 ![image](https://github.com/user-attachments/assets/d4a9d9dc-9bb8-4b9c-8650-d987738139f0)
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+<h2> STEP 2.0: Time to Examine And Interact with the Domain Client's Local DNS Cache. </h2>
 
+- Access the Domain Controller and open the DNS server manager again.
+- Right click the "mainframe" A record that was created and select properties.
+  - Change the assigned IP address to "8.8.8.8" (this Google's public DNS server FYI)
+  - Click Apply then OK
+ 
+  ![image](https://github.com/user-attachments/assets/704e076a-f506-4054-a613-b82e5662c0c1)
 
+ 
 
 
 
