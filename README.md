@@ -16,14 +16,15 @@
   NOTE: This lab was performed using the Active Directory domain environment I created during [this lab](https://github.com/CyberSecuriTim/ad-configuration).
     
   - It consisted of creating a Domain Controller virtual machine with DNS server software running on it.
-      - Creating a Client VM, joining it to the domain governed by the Domain Controller and statically setting the client's DNS server to be the DNS server installed on the Domain 
+      - Creating a Client VM, joining it to the domain governed by the Domain Controller and statically configuring the client's DNS server to be the DNS server installed on the Domain 
          controller.
   - Though this was the specific environment that I used to conduct this lab, realistically the essence of this exercise can be replicated in any environment where you have 
     adminstrative control over a DNS server and at least one client connected to that server. 
     
 </h4>
 </b>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   - Now before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know 
     how DNS works feel free to skip ahead) ☺️
