@@ -147,8 +147,8 @@
       - Notice the FQDN (fully qualified domain name) is automatically configured as well and appends the new hostname before the domain's name.
      
     - "Add Host"
-     
-      ![image](https://github.com/user-attachments/assets/002256fc-4183-408f-9071-29644606c59c)
+
+ ![image](https://github.com/user-attachments/assets/002256fc-4183-408f-9071-29644606c59c)
 
 </p>
 
