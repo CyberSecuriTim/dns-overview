@@ -231,6 +231,11 @@
 
 ![image](https://github.com/user-attachments/assets/0a59226c-8c0c-4f74-a55a-503917c31626)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 3.0: Change the IP Address within the Mainframe Host's A Record One More Time From the DNS Manger on the Domain Controller VM </h2>
 
 
+![image](https://github.com/user-attachments/assets/6010676e-b2be-4440-9d99-d73463a59d01)
 
+- FYI, quad 9 (9.9.9.9) is a public and free DNS service. 
