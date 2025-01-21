@@ -101,6 +101,7 @@
 
 ![image](https://github.com/user-attachments/assets/a2de0b9c-e6f1-4956-914c-52307233f1c3) ![image](https://github.com/user-attachments/assets/cf002f1c-a4df-4fb6-812d-4a18e988a724)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h3> STEP 0.5: From the Domain Client VM, Attempt to Ping the "Mainframe" Host.</h3>
 
@@ -129,6 +130,21 @@
 
 </p>
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 1.1: Attempt to Ping the Host "mainframe" Again from the Domain Client VM </h2>
+
+<p> 
+
+- Run the command "ping mainframe"
+  - It works this time! And notice that the IP address that it resolves to is the IP address that we assigned in the DNS server.
+
+![image](https://github.com/user-attachments/assets/09386b08-e9ed-4219-9137-9e9cbd3a4c8e)
+
+ 
+
+
+</p>
 
 
 
