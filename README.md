@@ -39,7 +39,7 @@
       - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more 
         everyday use we will only focus on the forward DNS lookups (domain names to IP addresses).
 
-     - Now that all the boring stuff is out of the way, let us get our hands dirty and 
+     - Now that all the boring stuff is out of the way, let us get our hands dirty and build some intuition for DNS! 
   
 </p>
 
