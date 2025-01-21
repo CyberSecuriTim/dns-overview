@@ -17,7 +17,12 @@
       the IP addresses for each of those websites.
        - Imagine having to type XXX.XXX.XXX.XXX everytime you wanted to visit your favourite website...(I shiver at the thought).
      
-    - However, our computers and other networked/networking devices are much comfortable interacting with those arbitrary sequence of numbers known as IP addresses 
+    - However, our computers and other networked/networking devices are much more proficient at interacting with those arbitrary sequence of numbers known as IP addresses.
+    - Behind the scenes, this wonderful technology (DNS) bridges the gap and allows both entities (humans and computers) to communicate with each other harmoniously.
+      - It will convert the domain names that you enter into the address bar of your favourite web browser into IP addresses that computers and servers (and the other devices in 
+        underlying internet infrastructure understand) so your network traffic can be appropriately routed.
+      - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more 
+        everyday use we will only focus on the forward DNS lookups (domain names to IP addresses). 
   
 </p>
 
