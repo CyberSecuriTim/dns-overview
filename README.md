@@ -223,6 +223,13 @@
 ![image](https://github.com/user-attachments/assets/e5892b66-89ee-468e-b3de-95709ff43879)
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 2.4: Ping the "mainframe" Host Again </h2>
+
+- Notice that it resolves to the IP address assigned in the DNS A Record.
+
+![image](https://github.com/user-attachments/assets/0a59226c-8c0c-4f74-a55a-503917c31626)
 
 
 
