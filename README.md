@@ -262,17 +262,25 @@
 
 
   - Add an entry to host file for mainframe
-    - Assign any accessible IP address in the entry (I chose the IP address of the default gateway for the Domain Client's subnet - 10.0.0.1)
+    - Assign any accessible IP address in the entry (I chose the IP address of the Domain Controller)
     - Save the entry (Ctrl + S). 
 
-![image](https://github.com/user-attachments/assets/00637ca6-d986-4873-a4d3-686c323ea130)
+![image](https://github.com/user-attachments/assets/6cc21372-056c-4124-97b3-932c6cc00d7e)
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> STEP 3.3: Ping the "mainframe" Host Again. </h2>
 
-- Notice that it 
+- Notice that it resolves to the IP address assigned in the local DNS host file, despite the DNS server's A record having a different value (9.9.9.9)
+  and despite the local DNS cache having a different initial value as well (8.8.8.8).
+
+![image](https://github.com/user-attachments/assets/342619d7-af52-4b11-923c-a8089ae395bd)
+
+  - This proves that the DNS host file takes precedence over both the DNS server's A record and the local DNS cache when resolving domain name to IP address lookups.
+       - It is a useful tool for system/network administrators to statically redirect traffic in their networks as needed by using DNS's hierarchical nature.  
+
 
 
 
