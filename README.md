@@ -113,6 +113,28 @@
 
 </p>
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 0.75: From the Domain Client VM, perform an Nslookup against the hostname "mainframe" </h2>
+
+- Run the command "nslookup mainframe"
+  - Notice that it contacts the domain controller VM as its DNS server and the DNS lookup cannot be resolved as the hostname cannot be found.
+ 
+   
+
+![image](https://github.com/user-attachments/assets/704b2383-333e-45d3-a9b9-c6a90cce6d79)
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 <h2> STEP 1.0: From the Domain Controller VM, Create a DNS A Record on the DNS server for the Hostname "Mainframe" </h2>
 
 <p>
@@ -137,7 +159,7 @@
 <p> 
 
 - Run the command "ping mainframe"
-  - It works this time! And notice that the IP address that it resolves to is the IP address that we assigned in the DNS server.
+  - It works this time! And notice that it resolves to the same IP address that we assigned in the DNS server manager.
 
 ![image](https://github.com/user-attachments/assets/09386b08-e9ed-4219-9137-9e9cbd3a4c8e)
 
