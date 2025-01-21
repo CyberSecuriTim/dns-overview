@@ -262,9 +262,16 @@
 
 
   - Add an entry to host file for mainframe
-    - Assign any accessible IP address in the entry (I chose the Domain Controller's IP address)
+    - Assign any accessible IP address in the entry (I chose the IP address of the default gateway for the Domain Client's subnet - 10.0.0.1)
     - Save the entry (Ctrl + S). 
 
 ![image](https://github.com/user-attachments/assets/1df5b2c1-ae9f-475f-9a33-f7447f94837c)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 3.3: Ping the "mainframe" Host Again. </h2>
+
+- Notice that it 
+![image](https://github.com/user-attachments/assets/0ceb2ca2-90f7-4a94-9f71-30567d504aa3)
 
 
