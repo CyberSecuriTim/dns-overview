@@ -239,3 +239,22 @@
 ![image](https://github.com/user-attachments/assets/6010676e-b2be-4440-9d99-d73463a59d01)
 
 - FYI, quad 9 (9.9.9.9) is a public and free DNS service. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 3.1: Verify that the Local DNS Cache on the Domain Client Still Contains the previous IP Address  </h2>
+
+![image](https://github.com/user-attachments/assets/3d82ffe8-18f2-475d-8113-3ef64847ca6d) ![image](https://github.com/user-attachments/assets/2385cf02-e6c2-472d-9a1d-cde9b1b49bf5)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2>STEP 3.2: Access the Local DNS Host File on the Domain Client VM and Create an entry for the Mainframe Hostname. </h2>
+
+- Open Notepad (with Admin privileges)
+
+![image](https://github.com/user-attachments/assets/a4f25923-2361-4e4d-b603-c6d9563c5587)
+
+  - Select "File" then select "Open"  "C:\\Windows\System32\drivers\etc\hosts" file
+  - Open it with Notepad 
+  - Add an entry to host file for mainframe
+    - Assign any accessible IP address in the entry (I chose the Domain Controller's IP address) 
