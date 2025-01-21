@@ -102,6 +102,10 @@
 ![image](https://github.com/user-attachments/assets/a2de0b9c-e6f1-4956-914c-52307233f1c3) ![image](https://github.com/user-attachments/assets/cf002f1c-a4df-4fb6-812d-4a18e988a724)
 
 
+<h3> STEP 0.5: From the Domain Client VM, Attempt to Ping the "Mainframe" Host.</h3>
+
+- Run the command "ping mainframe"
+  - Notice that the ping request fails (there is no DNS record for this hostname (neither locally nor externally)
 </p>
 
 
