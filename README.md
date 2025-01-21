@@ -258,7 +258,8 @@
   - Navigate to the "C:\\Windows\System32\drivers\etc\hosts" file
     - Select "All Files" from the dropdown menu in the bottmom right corner of the window.
    
-![image](https://github.com/user-attachments/assets/4c95c630-21e7-4890-ac36-5f0daf702d48)
+![image](https://github.com/user-attachments/assets/1f15b60d-5c2d-4ef5-8367-b86bd7e70c8f)
+
 
 
   - Add an entry to host file for mainframe
