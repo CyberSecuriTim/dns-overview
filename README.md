@@ -188,8 +188,8 @@
 - Right click the "mainframe" A record that was created and select properties.
   - Change the assigned IP address to "8.8.8.8" (this Google's public DNS server FYI)
   - Click Apply then OK
- 
-  ![image](https://github.com/user-attachments/assets/704e076a-f506-4054-a613-b82e5662c0c1)
+
+![image](https://github.com/user-attachments/assets/704e076a-f506-4054-a613-b82e5662c0c1)
 
  
 
