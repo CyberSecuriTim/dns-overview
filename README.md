@@ -258,7 +258,8 @@
   - Navigate to the "C:\\Windows\System32\drivers\etc\hosts" file
     - Select "All Files" from the dropdown menu in the bottmom right corner of the window.
    
-  ![image](https://github.com/user-attachments/assets/1c0d50c5-e772-4fa5-ad59-4f7908f79e7e)
+![image](https://github.com/user-attachments/assets/4c95c630-21e7-4890-ac36-5f0daf702d48)
+
 
   - Add an entry to host file for mainframe
     - Assign any accessible IP address in the entry (I chose the Domain Controller's IP address) 
