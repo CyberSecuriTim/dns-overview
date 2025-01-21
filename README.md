@@ -154,7 +154,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 1.5: Attempt to Ping the Host "mainframe" Again from the Domain Client VM </h2>
+<h2> STEP 1.33: Attempt to Ping the Host "mainframe" Again from the Domain Client VM </h2>
 
 <p> 
 
@@ -170,7 +170,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 1.75: Run the Nslookup Command against the Mainframe Hostname Again. </h2>
+<h2> STEP 1.66: Run the Nslookup Command against the Mainframe Hostname Again. </h2>
 
 
 - Run the command "nslookup mainframe"
@@ -193,7 +193,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- <h2> STEP 2.1: Attempt to Ping the "Mainframe" Host. </h2>
+ <h2> STEP 2.2: Attempt to Ping the "Mainframe" Host. </h2>
 
 - Run the command "ping mainframe"
   - Notice that it still pings the previously assigned IP address.
@@ -202,7 +202,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 2.2: Examine the Local DNS Cache of the Domain Client VM. </h2>
+<h2> STEP 2.4: Examine the Local DNS Cache of the Domain Client VM. </h2>
 
 - Run the command "ipconfig /displaydns"
   - Notice that the the previosuly assigned IP address is still stored in the DNS cache
@@ -214,7 +214,7 @@
    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 2.3: Clear the Local DNS cache so the DNS server's A Record can be Used </h2>
+<h2> STEP 2.6: Clear the Local DNS cache so the DNS server's A Record can be Used </h2>
 
 - Run the command "ipconfig /flushdns"
   - This will require opening the command prompt with admin privileges
@@ -225,7 +225,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 2.4: Ping the "mainframe" Host Again </h2>
+<h2> STEP 2.8: Ping the "mainframe" Host Again </h2>
 
 - Notice that it resolves to the IP address assigned in the DNS A Record.
 
@@ -242,13 +242,13 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 3.1: Verify that the Local DNS Cache on the Domain Client Still Contains the previous IP Address  </h2>
+<h2> STEP 3.25: Verify that the Local DNS Cache on the Domain Client Still Contains the previous IP Address  </h2>
 
 ![image](https://github.com/user-attachments/assets/3d82ffe8-18f2-475d-8113-3ef64847ca6d) ![image](https://github.com/user-attachments/assets/2385cf02-e6c2-472d-9a1d-cde9b1b49bf5)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2>STEP 3.2: Access the Local DNS Host File on the Domain Client VM and Create an entry for the Mainframe Hostname. </h2>
+<h2>STEP 3.50: Access the Local DNS Host File on the Domain Client VM and Create an entry for the Mainframe Hostname. </h2>
 
 - Open Notepad (with Admin privileges)
 
@@ -272,7 +272,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 3.3: Ping the "mainframe" Host Again. </h2>
+<h2> STEP 3.75: Ping the "mainframe" Host Again. </h2>
 
 - Notice that it resolves to the IP address assigned in the local DNS host file, despite the DNS server's A record having a different value (9.9.9.9)
   and despite the local DNS cache having a different initial value as well (8.8.8.8).
@@ -302,12 +302,17 @@
      
 ![image](https://github.com/user-attachments/assets/691532cb-9f1f-48d8-9b52-dfbd82f41a12)
 
-
-<h2> STEP 4.1: Attempt to Ping the Newly Created DNS CNAME.</h2>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> STEP 4.5: Attempt to Ping the Newly Created DNS CNAME.</h2>
 
 - Notice that it automatically resolves to the assigned target host's (fully qualified) domain name and then resolves to that IP address.
 
 ![image](https://github.com/user-attachments/assets/57dbd35e-1d78-4bca-9284-1f09d6a0fe21)
 
 
+<h2> BONUS STEP: Since the CNAME record is mapped to www.google.com let's try browsing using its Fully Qualified Domain Name. </h2>
 
+- Emter the FQDN of the CNAME record in the web browser address bar and observe what happens.
+
+
+![image](https://github.com/user-attachments/assets/0981abec-5215-4b21-890d-7e4f181a4c6e)
