@@ -310,7 +310,7 @@
 ![image](https://github.com/user-attachments/assets/57dbd35e-1d78-4bca-9284-1f09d6a0fe21)
 
 
-<h2> BONUS STEP: Since the CNAME record is mapped to (www.google.com) let's try browsing using its Fully Qualified Domain Name. </h2>
+<h2> BONUS STEP: Since the CNAME record is mapped to (www.g00gle.c0m) let's try browsing using its Fully Qualified Domain Name. </h2>
 
 - Enter the FQDN of the CNAME record in the web browser address bar and observe what happens.
 
