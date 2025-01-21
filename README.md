@@ -303,6 +303,11 @@
 ![image](https://github.com/user-attachments/assets/691532cb-9f1f-48d8-9b52-dfbd82f41a12)
 
 
-     
-    -    
+<h2> STEP 4.1: Attempt to Ping the Newly Created DNS CNAME.</h2>
+
+- Notice that it automatically resolves to the assigned target host's (fully qualified) domain name and then resolves to that IP address.
+
+![image](https://github.com/user-attachments/assets/57dbd35e-1d78-4bca-9284-1f09d6a0fe21)
+
+
 
