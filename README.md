@@ -331,6 +331,10 @@
 ![image](https://github.com/user-attachments/assets/1060e79a-f2ad-4c95-bbaa-dab21cc02446)
 
 - Welp! Good old HTTP error 404. 😞
+    - FYI, CNAME records operate at the DNS level only. It cannot modify the "Host" header presented in the HTTP request made by the web browser to Google's web servers.
+    - The "search.timsdomain.com" hostname would be invalid and unrecognizable to Google's web servers (as they expect hostnames in the HTTP requests to be "www.google.com")
+    - Therefore the Google web server will respond with the HTTP 404 (Resource not found) error.
+ 
 
 </p>
 
