@@ -234,7 +234,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 3.0: Change the IP Address within the Mainframe Host's A Record One More Time From the DNS Manger on the Domain Controller VM </h2>
+<h2> STEP 3.0: Change the IP Address within the Mainframe Host's A Record One More Time From the DNS Manger on the Domain Controller VM.</h2>
 
 
 ![image](https://github.com/user-attachments/assets/6010676e-b2be-4440-9d99-d73463a59d01)
@@ -319,14 +319,14 @@
 ![image](https://github.com/user-attachments/assets/0981abec-5215-4b21-890d-7e4f181a4c6e)
 
 - FYI. This message occurs because although the domain name system redirects our search to Google's web server, it does not possess the digital certificate associated with that 
-  google web server, therefore the web browser has built-in security functionality to alert the user that the web server they are trying to access may not truly be the authentic 
-  server and the user may be the victim of an interception/on-path attack and is advising them not to proceed with their search.
-    - This is beyond the scope of the DNS lab, I just wanted to include that tidbit of information for funsies...I did say I was an IT nerd after all 😜
+  Google web server.
+   - Therefore, the web browser has built-in security functionality to alert the user that the web server they are trying to access may not truly be the authentic server and the user may be the victim of an interception/on-path attack and is advising them not to proceed with their search.
+   - This is beyond the scope of the DNS lab, I just wanted to include that tidbit of information for funsies...I did say I was an IT nerd after all 😜
 
 
 <p> 
 
-- But if you wanted to a go for a ride on the wild side, neglect cybersecurity best practice and still browse to this site let us see what happens.
+- But if you wanted to a go for a ride on the wild side, neglect cybersecurity best practices and still browse to this site let us see what happens.
 
 ![image](https://github.com/user-attachments/assets/1060e79a-f2ad-4c95-bbaa-dab21cc02446)
 
@@ -334,4 +334,4 @@
 
 </p>
 
-<h2> Congratulations! You have made it to the end of the lab. Hopefully, this simple exercise has strengthened your intuition for the domain name system. It truly is a wonderful technology that makes our lives so much easier on the internet. 😁</h2>
+<h2> Congratulations! You have made it to the end of the lab. Hopefully, this simple exercise has strengthened your understanding of the domain name system. It truly is a wonderful technology that makes our lives so much easier on the internet. 😁</h2>
