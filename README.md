@@ -49,7 +49,7 @@
           - The (recursive) DNS server will begin contacting external DNS servers via the internet in a hierarchical manner:
           - Root DNS server > Top Level Domain (TLD) DNS server > Authoritative DNS server
           - This is done until the domain name lookup process is completed and the lookup is resolved...or not👀
-            - If this entire DNS process is unsuccessful and the IP address for the specified domain name is not obtained then the browser will typically display an error message to the end user.    
+            - If this entire DNS process is unsuccessful and the IP address for the specified domain name is not obtained then the browser or whatever searching mechanism was used will typically display an error message to the end user.    
 
 ![image](https://github.com/user-attachments/assets/f8df8821-375d-4a56-8933-88d8f55a517b)
 
@@ -68,7 +68,7 @@
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 - Windows Server 2022 
 
 <h2>High-Level Steps</h2>
@@ -76,7 +76,7 @@
 - Step 0: Access the Domain Controller and Domain Client VMs
 - Step 1: Creating a DNS A-Record on the DNS Server (forward DNS lookups - domain names to IP addresses) 
 - Step 2: Examining and Interacting with the Domain Client's Local DNS cache  
-- Step 3: Examining and Intercating with the Domain Client's Local DNS Host File
+- Step 3: Examining and Interacting with the Domain Client's Local DNS Host File
 - Step 4: Creating a CNAME (canonical name) DNS record (think of this like an alias for a domain name) 
 
 <h2>Actions and Observations</h2>
@@ -98,7 +98,7 @@
 
 
 - Verify that the Domain Client VM's DNS server is set to the IP address of the Domain Controller VM.
-  - Run the "ipconfig /all" command on both VM's
+  - Run the "ipconfig /all" command on both VMs
 
 ![image](https://github.com/user-attachments/assets/a2de0b9c-e6f1-4956-914c-52307233f1c3) ![image](https://github.com/user-attachments/assets/cf002f1c-a4df-4fb6-812d-4a18e988a724)
 
@@ -143,7 +143,7 @@
   - Open the "DNS Manager" app
   - Click on the name of the Domain Controller VM running the DNS server software.
     - Navigate to Forward Lookup Zones > (name of the previously created domain)
-    - Right Click the domain and select "New Host (A or AAAA)..."
+    - Right-click the domain and select "New Host (A or AAAA)..."
     - Enter "mainframe" and assign this new host the IP address of the Domain Controller VM
       - Notice the FQDN (fully qualified domain name) is automatically configured as well and appends the new hostname before the domain's name.
      
