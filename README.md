@@ -160,7 +160,7 @@
 <p> 
 
 - Run the command "ping mainframe"
-  - It works this time! And notice that it resolves to the same IP address that we assigned in the DNS server manager.
+  - It works this time! Notice that it resolves to the same IP address that we assigned in the DNS server manager.
 
 ![image](https://github.com/user-attachments/assets/09386b08-e9ed-4219-9137-9e9cbd3a4c8e)
 
@@ -186,7 +186,7 @@
 <h2> STEP 2.0: From the Domain Controller, Change the Assigned IP address to the "Mainframe" A Record. </h2>
 
 - Access the Domain Controller and open the DNS server manager again.
-- Right click the "mainframe" A record that was created and select properties.
+- Right-click the "mainframe" A record that was created and select properties.
   - Change the assigned IP address to "8.8.8.8" (this is Google's public DNS server FYI)
   - Click Apply then OK
 
@@ -206,12 +206,12 @@
 <h2> STEP 2.4: Examine the Local DNS Cache of the Domain Client VM. </h2>
 
 - Run the command "ipconfig /displaydns"
-  - Notice that the the previosuly assigned IP address is still stored in the DNS cache
+  - Notice that the previously assigned IP address is still stored in the DNS cache
 
 ![image](https://github.com/user-attachments/assets/f97e781f-aecb-4bcf-8387-e68fca5e380f)
 
-- This clearly shows the fact that the local DNS cache takes precedence over the DNS server's A record during the DNS resolution process
-  - This favours speed and efficiency of the data retrieval but sometimes at the cost of accuracy as can we here.
+- This clearly shows the fact that the local DNS cache takes precedence over the DNS server's A record during the DNS resolution process.
+  - This favours the speed and efficiency of the DNS lookup process but sometimes at the cost of the most accurate information as we can see here.
    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -239,7 +239,8 @@
 
 ![image](https://github.com/user-attachments/assets/6010676e-b2be-4440-9d99-d73463a59d01)
 
-- FYI, quad 9 (9.9.9.9) is a public and free DNS service. 
+- FYI, Quad9 is a public and free DNS service.
+  - Their DNS servers have an IP address of "9.9.9.9".
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -263,7 +264,7 @@
 
 
 
-  - Add an entry to host file for mainframe
+  - Add an entry to the host file for mainframe.
     - Assign any accessible IP address in the entry (I chose the IP address of the Domain Controller)
     - Save the entry (Ctrl + S). 
 
@@ -290,7 +291,7 @@
 
 - Within DNS Manager:
   - Navigate to (name of Domain Controller VM) > Forward Lookup Zone > (name of the created domain)
-  - Right click the name of the domain and select "New Alias (CNAME)..."
+  - Right-click the name of the domain and select "New Alias (CNAME)..."
     - That is essentially what a CNAME record is (an alias for an already created A record)
       - For the CNAME record to work, the A record must be created (domain name mapped to an IPv4 address)
 
