@@ -264,7 +264,7 @@
 
 
 
-  - Add an entry to the host file for mainframe.
+  - Add an entry to the local host file for mainframe.
     - Assign any accessible IP address in the entry (I chose the IP address of the Domain Controller)
     - Save the entry (Ctrl + S). 
 
@@ -276,8 +276,7 @@
 
 <h2> STEP 3.75: Ping the "mainframe" Host Again. </h2>
 
-- Notice that it resolves to the IP address assigned in the local DNS host file, despite the DNS server's A record having a different value (9.9.9.9)
-  and despite the local DNS cache having a different initial value as well (8.8.8.8).
+- Notice that it resolves to the IP address assigned in the local DNS host file, despite the DNS server's A record having a different value (9.9.9.9) and despite the local DNS cache having a different initial value as well (8.8.8.8).
 
 ![image](https://github.com/user-attachments/assets/d41c76e5-c1d7-4c30-b565-98b95b50f1ff)
 
@@ -298,7 +297,7 @@
 ![image](https://github.com/user-attachments/assets/c691cef0-5796-4093-a9c3-574f54a5196d)
 
   - Name the alias "search"
-    - Notice the FQDN (fully quailified domain name) is automatically configured (similarly to when we created the "mainframe" A record)
+    - Notice the FQDN (fully qualified domain name) is automatically configured (similarly to when we created the "mainframe" A record)
     - Enter the FQDN for the target host
       - I chose "www.gooogle.com" (it can be whatever you would like it to be, just ensure the target host is accessible)
      
@@ -312,16 +311,16 @@
 ![image](https://github.com/user-attachments/assets/57dbd35e-1d78-4bca-9284-1f09d6a0fe21)
 
 
-<h2> BONUS STEP: Since the CNAME record is mapped to the FQDN of google's web servers let's try browsing using its Fully Qualified Domain Name. </h2>
+<h2> BONUS STEP: Since the CNAME record is mapped to the FQDN of Google's web servers let's try browsing using its Fully Qualified Domain Name. </h2>
 
 - Enter the FQDN of the CNAME record in the web browser address bar and observe what happens.
 
 
 ![image](https://github.com/user-attachments/assets/0981abec-5215-4b21-890d-7e4f181a4c6e)
 
-- FYI. This message occurs because although the domain name system redirects our search to google's web server, it does not possess the digital certificate associated with that 
-  google web server, therfore the web browser has built in security functionality to alert the user that the web server they are trying to access may not truly be the authentic 
-  server and this victim may be the victim of an interception/on-path attack if they proceed.
+- FYI. This message occurs because although the domain name system redirects our search to Google's web server, it does not possess the digital certificate associated with that 
+  google web server, therefore the web browser has built-in security functionality to alert the user that the web server they are trying to access may not truly be the authentic 
+  server and the user may be the victim of an interception/on-path attack and is advising them not to proceed with their search.
     - This is beyond the scope of the DNS lab, I just wanted to include that tidbit of information for funsies...I did say I was an IT nerd after all 😜
 
 
@@ -335,4 +334,4 @@
 
 </p>
 
-<h2> Congratulations! You have made it to the end of the lab. Hopefully this simple exercise has strengthened your intuition for the domain name system. It truly is a wonderful technology that makes our lives so much easier on the internet. 😁</h2>
+<h2> Congratulations! You have made it to the end of the lab. Hopefully, this simple exercise has strengthened your intuition for the domain name system. It truly is a wonderful technology that makes our lives so much easier on the internet. 😁</h2>
