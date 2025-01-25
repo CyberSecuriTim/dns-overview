@@ -4,39 +4,38 @@
 
 </p>
 
-<h1>DNS for Dumm...DNS Done Simply 😅</h1> <br />
+<h1>DNS for Dumm...DNS Done Simply 😅</h1>
 
 <p>
 
-  - This tutorial outlines the basic domain name to IP address resolution process which is a vital component of the Domain Name System which allows us to visit all our favourite websites 
-    and "seamlessly" (most of the time anyways) traverse the internet daily.
+  - This tutorial outlines the basic domain name to IP address resolution process which is a vital component of the Domain Name System which enables us to visit all our favourite websites and "seamlessly" (most of the time anyway) traverse the internet daily.
 
 <h4>
  
   DISCLAIMER: This lab was performed using the Active Directory domain environment I created during [this lab](https://github.com/CyberSecuriTim/ad-configuration).
     
   - It consisted of creating a Domain Controller virtual machine with DNS server software running on it.
-      - Creating a Client VM, joining it to the domain governed by the Domain Controller and statically configuring the client's DNS server to be the DNS server installed on the Domain 
-         controller.
-  - Though this was the specific environment that I used to conduct this lab, realistically the essence of this exercise can be replicated in any environment where you have 
-    adminstrative control over a DNS server and at least one client connected to that server. 
+      - Creating a Domain Client VM, joining it to the domain governed by the Domain Controller, and statically configuring the client
+        to use the Domain Controller as its DNS server.
+  - Though this was the specific environment that I used to conduct this lab, realistically the essence of this exercise can be replicated 
+    in any environment where you have administrative control over a DNS server and at least one client connected to that server. 
     
 </h4>
 </b>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  - Now before we dive into the practical lab exercise I would just like to give you a brief summary of how DNS works and why it is important (to all my fellow IT nerds who already know 
-    how DNS works feel free to skip ahead) ☺️
-    - It is much easier for us as humans to remember domain names such as (google.com, facebook.com, youtube.com etc) than it is to memorize an arbitrary sequence of numbers that forms 
-      the IP addresses for each of those websites.
-       - Imagine having to type XXX.XXX.XXX.XXX everytime you wanted to visit your favourite website or even access your network resources on your local network...(I shiver at the 
-         thought).
+  - Now before we dive into the practical lab exercise I would just like to give you a summary of how DNS works and why it is important (to all my fellow IT nerds who already know how DNS works feel free to skip ahead) ☺️
+    - It is much easier for us as humans to remember domain names such as (google.com, facebook.com, youtube.com etc) than it is to 
+     memorize an arbitrary sequence of numbers that forms the IP addresses for each of those respective websites.
+       - Imagine having to type XXX.XXX.XXX.XXX every time you wanted to visit your favourite website or even access your network resources 
+         on your local network...(I shiver at the thought).
      
     - However, our computers and other networked/networking devices are much more proficient at interacting with those arbitrary sequence of numbers known as IP addresses.
     - Behind the scenes, this wonderful technology (DNS) bridges the gap and allows both entities (humans and computers) to communicate with each other harmoniously.
-      - It will convert the domain names that you enter into the address bar of your favourite web browser into IP addresses that computers and servers (and the other devices in 
-        underlying internet infrastructure understand) so your network traffic can be appropriately routed.
+      - It will convert the domain names (that you enter into the address bar of your web browser) into IP addresses that computers, 
+        servers, routers and the other devices in the underlying internet infrastructure understand.
+          - This enables your network traffic to be appropriately routed.
       - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more 
         everyday use we will focus primarily on the forward DNS lookups (domain names to IP addresses).
 
