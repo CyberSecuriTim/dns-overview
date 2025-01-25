@@ -25,7 +25,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  - Now before we dive into the practical lab exercise I would just like to give you a summary of how DNS works and why it is important (to all my fellow IT nerds who already know how DNS works feel free to skip ahead) ☺️
+  - Now before we dive into the practical lab exercise I would just like to give you a summary of how DNS works and why it is important (to all my fellow IT nerds who already know how DNS works, feel free to skip ahead) ☺️
     - It is much easier for us as humans to remember domain names such as (google.com, facebook.com, youtube.com etc) than it is to 
      memorize an arbitrary sequence of numbers that forms the IP addresses for each of those respective websites.
        - Imagine having to type XXX.XXX.XXX.XXX every time you wanted to visit your favourite website or even access your network resources 
@@ -36,7 +36,7 @@
       - It will convert the domain names (that you enter into the address bar of your web browser) into IP addresses that computers, 
         servers, routers and the other devices in the underlying internet infrastructure understand.
           - This enables your network traffic to be appropriately routed.
-      - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more everyday use we will focus primarily on the forward DNS lookups (domain names to IP addresses).
+      - This process also occurs in the reverse (known as a Reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more everyday use we will focus primarily on the forward DNS lookups (domain names to IP addresses).
 
       - DNS also uses a hierarchical structure during its resolution process:
         - At the local level:
@@ -47,9 +47,9 @@
          
         - At the remote/external level:
           - The (recursive) DNS server will begin contacting external DNS servers via the internet in a hierarchical manner:
-          - Root DNS server > Top Level Domain (TLD) DNS server > Authoritative DNS server
+            - Root DNS server > Top Level Domain (TLD) DNS server > Authoritative DNS server
           - This is done until the domain name lookup process is completed and the lookup is resolved...or not👀
-            - If this entire DNS process is unsuccessful and the IP address for the specified domain name is not obtained then the browser or whatever searching mechanism was used will typically display an error message to the end user.    
+            - If this entire DNS process is unsuccessful and the IP address for the specified domain name is not discovered then the browser or whatever searching mechanism was used will typically display an error message to the end user.    
 
 ![image](https://github.com/user-attachments/assets/f8df8821-375d-4a56-8933-88d8f55a517b)
 
@@ -108,7 +108,7 @@
 
 - Run the command "ping mainframe"
   - Notice that the ping request fails (there is no DNS record for this hostname (neither locally nor externally)
-    - This hostname was entirely arbitrary by the way the hostname could have been anything even "fluffy zebras" for example
+    - This hostname was entirely arbitrary; the hostname could have been anything even "fluffy zebras" for example
 
 ![image](https://github.com/user-attachments/assets/97d3db10-1cc6-4ef2-968c-3d98b244eabe)
 
