@@ -36,8 +36,7 @@
       - It will convert the domain names (that you enter into the address bar of your web browser) into IP addresses that computers, 
         servers, routers and the other devices in the underlying internet infrastructure understand.
           - This enables your network traffic to be appropriately routed.
-      - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more 
-        everyday use we will focus primarily on the forward DNS lookups (domain names to IP addresses).
+      - This process also occurs in the reverse (known as a reverse DNS lookup) in which an IP address is converted to a domain name but for the sake of simplicity and focusing on more everyday use we will focus primarily on the forward DNS lookups (domain names to IP addresses).
 
       - DNS also uses a hierarchical structure during its resolution process:
         - At the local level:
@@ -49,9 +48,12 @@
         - At the remote/external level:
           - The (recursive) DNS server will begin contacting external DNS servers via the internet in a hierarchical manner:
           - Root DNS server > Top Level Domain (TLD) DNS server > Authoritative DNS server
-          - Until a the domain name lookup process is completed and the lookup is resolved...or not👀 
+          - This is done until the domain name lookup process is completed and the lookup is resolved...or not👀
+            - If this entire DNS process is unsuccessful and the IP address for the specified domain name is not obtained then the browser will typically display an error message to the end user.    
 
-     - Now that all the boring stuff is out of the way, let us get our hands dirty and build some intuition for DNS! 
+![image](https://github.com/user-attachments/assets/f8df8821-375d-4a56-8933-88d8f55a517b)
+
+- Now that all the boring stuff is out of the way, let us get our hands dirty and build some intuition for DNS! 
   
 </p>
 
